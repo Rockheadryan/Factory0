@@ -1,4 +1,4 @@
-# `#f26522`Factory0
+# Factory0
 Development of Factory0 Minecraft Modpack
 Factory0 is a Satisfactory/Factorio inspired pack, but in no way am I trying to re-create the games.
 The game will take place on a custom world with limited resources. The objective is for players to manage and optimize these resource nodes to create a factory.
