@@ -1,0 +1,218 @@
+#Bastion Calculator - the protected zone. Lists: basic, red_dwarf, yellow_star, blue_giant, neutron_star, singularity
+[zone]
+	#Zone radius in blocks per tier
+	radius = [16, 24, 32, 48, 64, 96]
+	#FE buffer of the Bastion Calculator per tier
+	buffer = [200000, 800000, 3200000, 12800000, 51200000, 204800000]
+	#Show the glowing zone border while a player looks at the Bastion Calculator
+	showBorder = true
+
+#Star towers
+[towers]
+	#Master switch for all towers
+	enabled = true
+	#Basic: star beam
+	starBeam = true
+	#Red Dwarf: ember laser (sets targets on fire)
+	emberLaser = true
+	#Yellow Star: solar flash (cone, blinds, double damage to undead)
+	solarFlash = true
+	#Blue Giant: plasma arc (chain lightning)
+	plasmaArc = true
+	#Neutron Star: gravity well (pulls and holds, keeps creepers away)
+	gravityWell = true
+	#Singularity: event horizon (small black hole)
+	eventHorizon = true
+	#Base range in blocks per tier
+	range = [10.0, 12.0, 14.0, 16.0, 18.0, 22.0]
+	#Ticks between shots per tier (20 ticks = 1 second)
+	cooldown = [24, 20, 30, 28, 50, 90]
+	#Damage per hit per tier
+	damage = [3.0, 4.0, 5.0, 7.0, 6.0, 10.0]
+	#FE per shot per tier
+	shotEnergy = [120, 300, 700, 1600, 4000, 12000]
+	#Ticks between target searches of a tower without target (performance)
+	# Default: 10
+	# Range: 2 ~ 200
+	searchInterval = 10
+	#At most this many entities are looked at per search
+	# Default: 64
+	# Range: 4 ~ 1024
+	maxScanned = 64
+	#Solar flash damage factor against undead
+	# Default: 2.0
+	# Range: 1.0 ~ 10.0
+	undeadFactor = 2.0
+	#Solar flash: targets per flash
+	# Default: 5
+	# Range: 1 ~ 32
+	coneTargets = 5
+	#Plasma arc: targets per chain
+	# Default: 4
+	# Range: 1 ~ 32
+	chainTargets = 4
+	#Plasma arc: jump distance
+	# Default: 6.0
+	# Range: 1.0 ~ 32.0
+	chainRange = 6.0
+	#Gravity well: hold time in ticks
+	# Default: 60
+	# Range: 1 ~ 600
+	gravityHold = 60
+	#Gravity well: creepers are pushed back to at least this distance
+	# Default: 7.0
+	# Range: 0.0 ~ 32.0
+	creeperDistance = 7.0
+	#Event horizon: lifetime of a black hole in ticks
+	# Default: 80
+	# Range: 10 ~ 600
+	horizonTicks = 80
+	#Event horizon: pull radius
+	# Default: 4.5
+	# Range: 1.0 ~ 16.0
+	horizonRadius = 4.5
+	#Allow towers to attack bosses (Wither, Ender Dragon, c:bosses, scc_defense:bosses). Off by default:
+	#boss fights are progression and stay with the players.
+	attackBosses = false
+	#Allow the 'Hostile + Neutral' targeting card
+	neutralCard = true
+	#Allow the mob list targeting card
+	listCard = true
+
+#Tower upgrades (up to 4 per tower)
+[upgrades]
+	#Range bonus per Range Lens
+	# Default: 0.25
+	# Range: 0.0 ~ 10.0
+	range = 0.25
+	#Cooldown reduction per Pulse Capacitor (multiplicative)
+	# Default: 0.18
+	# Range: 0.0 ~ 0.9
+	rate = 0.18
+	#Energy saving per Flux Condenser (multiplicative)
+	# Default: 0.18
+	# Range: 0.0 ~ 0.9
+	efficiency = 0.18
+	#Highest Looting level from Plunder Prisms
+	# Default: 3
+	# Range: 0 ~ 10
+	maxLooting = 3
+
+#Special ammunition pulled by towers from the SCC storage
+[ammo]
+	#Allow special ammunition
+	enabled = true
+	#Shots per ammunition item
+	# Default: 8
+	# Range: 1 ~ 1024
+	shotsPerItem = 8
+	#Items for fire ammunition
+	fire = ["minecraft:blaze_powder"]
+	#Items for frost ammunition
+	frost = ["minecraft:packed_ice", "minecraft:blue_ice"]
+	#Items for stardust ammunition
+	stardust = ["scc:star_shard"]
+	#Bonus damage of stardust ammunition
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	stardustBonus = 0.5
+
+#Loot of defeated mobs
+[loot]
+	#Drops of mobs defeated by towers go into the SCC storage of the Bastion Calculator
+	toStorage = true
+	#Experience goes into the SCC network as fluid (tag c:experience) or into the Bastion Calculator
+	xpToStorage = true
+	#mB of experience fluid per experience point
+	# Default: 20
+	# Range: 1 ~ 1000
+	xpMbPerPoint = 20
+
+#Star Shield dome
+[shield]
+	#Master switch
+	enabled = true
+	#Stop projectiles of mobs (arrows, fireballs, shulker bullets ...)
+	projectiles = true
+	#Prevent block damage of explosions caused by mobs (creepers, ghasts)
+	explosions = true
+	#FE per stopped projectile
+	# Default: 400
+	# Range: > 0
+	projectileCost = 400
+	#FE per stopped explosion
+	# Default: 6000
+	# Range: > 0
+	explosionCost = 6000
+	#FE per tick while the dome stands, per tier (higher tiers are more efficient per block)
+	idle = [20, 30, 45, 60, 80, 100]
+
+#Star Ward - prevents natural hostile spawns
+[ward]
+	#Master switch
+	enabled = true
+	#Radius per tier
+	radius = [16, 24, 32, 48, 64, 96]
+	#FE per tick per tier
+	energy = [8, 16, 32, 64, 128, 256]
+
+#Light fence between two posts
+[fence]
+	#Master switch
+	enabled = true
+	#Longest fence per tier (blocks between the posts)
+	length = [8, 10, 12, 16, 20, 24]
+	#FE per tick per block of fence
+	# Default: 2
+	# Range: 0 ~ 100000
+	energyPerMeter = 2
+
+#Gravity mine
+[mine]
+	#Master switch
+	enabled = true
+	#FE per launch
+	# Default: 800
+	# Range: > 0
+	energy = 800
+	#Ticks between launches
+	# Default: 40
+	# Range: 1 ~ 12000
+	cooldown = 40
+	#Upward speed per tier
+	launch = [0.9, 1.1, 1.3, 1.5, 1.7, 2.0]
+
+#Alarm when hostile mobs enter the zone
+[alarm]
+	#Master switch
+	enabled = true
+	#Allow the sound
+	sound = true
+	#Allow the action bar message
+	message = true
+	#Allow the redstone signal
+	redstone = true
+
+#Raids and invasions
+[raids]
+	#Overload mode during raids and waves
+	overload = true
+	#Fire rate factor in overload mode
+	# Default: 2.0
+	# Range: 1.0 ~ 10.0
+	rateFactor = 2.0
+	#Energy factor in overload mode
+	# Default: 2.0
+	# Range: 1.0 ~ 10.0
+	energyFactor = 2.0
+	#This many hostile mobs in the zone count as a wave (mod invasions)
+	# Default: 12
+	# Range: 2 ~ 1000
+	waveThreshold = 12
+
+#Compatibility
+[compat]
+	#Respect FTB Chunks claims of other teams (no shots, pulls or launches there)
+	ftbChunksClaims = true
+	#Members of the owner's FTB team may use the defense blocks
+	ftbTeamsAccess = true

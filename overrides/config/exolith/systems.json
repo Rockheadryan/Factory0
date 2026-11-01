@@ -1,0 +1,606 @@
+{
+  "systems": [
+    {
+      "id": 0,
+      "x": 0.0,
+      "y": 0.0,
+      "isBinary": false,
+      "sunRadius": 22,
+      "sunColor": "FFA61A",
+      "starThreats": [
+        "HEAT",
+        "RADIATION"
+      ],
+      "starLoot": [
+        {
+          "item": "exolith:spectral_dust",
+          "tool": "SCOOP",
+          "min": 2,
+          "max": 4
+        },
+        {
+          "item": "minecraft:magma_block",
+          "tool": "SCOOP",
+          "min": 3,
+          "max": 5
+        }
+      ],
+      "planets": [
+        {
+          "id": "0",
+          "translationKey": "space.exolith.planet.0",
+          "type": "TERRAN",
+          "orbitRadiusX": 325.0,
+          "orbitRadiusY": 113.75,
+          "orbitSpeed": 0.0010000000474974513,
+          "size": 40,
+          "threats": [],
+          "loot": [
+            {
+              "item": "minecraft:raw_iron",
+              "tool": "SURFACE",
+              "min": 4,
+              "max": 8
+            },
+            {
+              "item": "minecraft:raw_copper",
+              "tool": "SURFACE",
+              "min": 4,
+              "max": 8
+            },
+            {
+              "item": "minecraft:coal",
+              "tool": "DRILL",
+              "min": 6,
+              "max": 12
+            }
+          ],
+          "moons": [
+            {
+              "distance": 46.0,
+              "speed": 0.02500000037252903,
+              "angle": 45.0,
+              "size": 3,
+              "color": "D8D8D8"
+            }
+          ],
+          "hash": "5cfd18911528dff42f808d4b1e4e9ca6"
+        },
+        {
+          "id": "1",
+          "translationKey": "space.exolith.planet.1.a",
+          "type": "MAGMATIC",
+          "orbitRadiusX": 215.0,
+          "orbitRadiusY": 75.25,
+          "orbitSpeed": 0.0007999999797903001,
+          "size": 36,
+          "threats": [
+            "HEAT"
+          ],
+          "loot": [
+            {
+              "item": "exolith:raw_space_iridium",
+              "tool": "DRILL",
+              "min": 2,
+              "max": 4
+            },
+            {
+              "item": "exolith:spectral_shard",
+              "tool": "SURFACE",
+              "min": 1,
+              "max": 2
+            }
+          ],
+          "moons": [],
+          "hash": "6f6138892c8dbc81e8c6b3679ef7a2cd"
+        },
+        {
+          "id": "2",
+          "translationKey": "space.exolith.planet.2.a",
+          "type": "MOLTEN",
+          "orbitRadiusX": 435.0,
+          "orbitRadiusY": 152.25,
+          "orbitSpeed": 0.0006000000284984708,
+          "size": 24,
+          "threats": [
+            "HEAT"
+          ],
+          "loot": [
+            {
+              "item": "exolith:meteorite_shard",
+              "tool": "SURFACE",
+              "min": 5,
+              "max": 10
+            },
+            {
+              "item": "exolith:spectral_dust",
+              "tool": "SURFACE",
+              "min": 2,
+              "max": 5
+            },
+            {
+              "item": "minecraft:gunpowder",
+              "tool": "SURFACE",
+              "min": 4,
+              "max": 7
+            }
+          ],
+          "moons": [],
+          "hash": "231d5690cd6a3515f1bf5d8d09bdc944"
+        },
+        {
+          "id": "3",
+          "translationKey": "space.exolith.planet.3.a",
+          "type": "TERRAN",
+          "orbitRadiusX": 545.0,
+          "orbitRadiusY": 190.75,
+          "orbitSpeed": 0.0005000000237487257,
+          "size": 46,
+          "threats": [],
+          "loot": [
+            {
+              "item": "exolith:raw_space_palladium",
+              "tool": "DRILL",
+              "min": 3,
+              "max": 6
+            },
+            {
+              "item": "minecraft:prismarine_shard",
+              "tool": "SURFACE",
+              "min": 4,
+              "max": 8
+            },
+            {
+              "item": "minecraft:sea_lantern",
+              "tool": "SURFACE",
+              "min": 2,
+              "max": 3
+            }
+          ],
+          "moons": [],
+          "hash": "b3d245fce7ce9d08cce2b4865f6f0643"
+        }
+      ],
+      "asteroidBelts": [],
+      "hash": "90bcb9d3a0f907addd4ea2eb09ac1a8e"
+    },
+    {
+      "id": 1,
+      "x": 3000.0,
+      "y": 1500.0,
+      "isBinary": false,
+      "sunRadius": 22,
+      "sunColor": "00B3FF",
+      "starThreats": [
+        "HEAT",
+        "RADIATION"
+      ],
+      "starLoot": [
+        {
+          "item": "exolith:canister_helium_3",
+          "tool": "SCOOP",
+          "min": 2,
+          "max": 4
+        },
+        {
+          "item": "minecraft:magma_block",
+          "tool": "SURFACE",
+          "min": 3,
+          "max": 5
+        }
+      ],
+      "planets": [
+        {
+          "id": "10",
+          "translationKey": "space.exolith.planet.10.a",
+          "type": "MOLTEN",
+          "orbitRadiusX": 215.0,
+          "orbitRadiusY": 75.25,
+          "orbitSpeed": 0.0005000000237487257,
+          "size": 36,
+          "threats": [
+            "HEAT"
+          ],
+          "loot": [
+            {
+              "item": "exolith:raw_magmatic_titanium",
+              "tool": "DRILL",
+              "min": 4,
+              "max": 8
+            },
+            {
+              "item": "minecraft:netherite_scrap",
+              "tool": "SURFACE",
+              "min": 1,
+              "max": 2
+            },
+            {
+              "item": "minecraft:obsidian",
+              "tool": "SURFACE",
+              "min": 3,
+              "max": 6
+            }
+          ],
+          "moons": [],
+          "hash": "d220d72733c4fa893098363c5bf9c18a"
+        },
+        {
+          "id": "11",
+          "translationKey": "space.exolith.planet.11.a",
+          "type": "DARKNESS",
+          "orbitRadiusX": 335.0,
+          "orbitRadiusY": 117.25,
+          "orbitSpeed": 0.00039999998989515007,
+          "size": 52,
+          "threats": [
+            "NO_SUNLIGHT",
+            "RADIATION"
+          ],
+          "loot": [
+            {
+              "item": "minecraft:echo_shard",
+              "tool": "DRILL",
+              "min": 2,
+              "max": 4
+            },
+            {
+              "item": "minecraft:sculk_catalyst",
+              "tool": "SURFACE",
+              "min": 1,
+              "max": 2
+            },
+            {
+              "item": "minecraft:ancient_debris",
+              "tool": "DRILL",
+              "min": 1,
+              "max": 3
+            },
+            {
+              "item": "exolith:spectral_shard",
+              "tool": "SURFACE",
+              "min": 3,
+              "max": 6
+            }
+          ],
+          "moons": [
+            {
+              "distance": 30.0,
+              "speed": 0.029999999329447746,
+              "angle": 90.0,
+              "size": 2,
+              "color": "004D40"
+            }
+          ],
+          "hash": "4c9fa19170293df32aec2dfa5ffe4986"
+        },
+        {
+          "id": "1_ceres",
+          "translationKey": "space.exolith.planet.13.a",
+          "type": "DESERT",
+          "orbitRadiusX": 455.0,
+          "orbitRadiusY": 159.25,
+          "orbitSpeed": 0.0003499999875202775,
+          "size": 16,
+          "threats": [
+            "NO_SUNLIGHT"
+          ],
+          "loot": [
+            {
+              "item": "exolith:raw_magmatic_titanium",
+              "tool": "DRILL",
+              "min": 5,
+              "max": 9
+            },
+            {
+              "item": "exolith:meteorite_shard",
+              "tool": "SURFACE",
+              "min": 10,
+              "max": 16
+            }
+          ],
+          "moons": [],
+          "hash": "27fa121296b9a4f80a37d26aec5c59c0"
+        },
+        {
+          "id": "12",
+          "translationKey": "space.exolith.planet.12.a",
+          "type": "ICE",
+          "orbitRadiusX": 575.0,
+          "orbitRadiusY": 201.25,
+          "orbitSpeed": 0.0003000000142492354,
+          "size": 36,
+          "threats": [
+            "NO_SUNLIGHT"
+          ],
+          "loot": [
+            {
+              "item": "minecraft:diamond",
+              "tool": "DRILL",
+              "min": 2,
+              "max": 4
+            },
+            {
+              "item": "minecraft:packed_ice",
+              "tool": "SURFACE",
+              "min": 6,
+              "max": 12
+            }
+          ],
+          "moons": [],
+          "hash": "4885d30817d232603b97b4fdec221553"
+        }
+      ],
+      "asteroidBelts": [
+        333.0,
+        335.0,
+        337.0,
+        100.0
+      ],
+      "hash": "8f3b799a9fbd6ba7620269e105910ef2"
+    },
+    {
+      "id": 2,
+      "x": -2500.0,
+      "y": 2200.0,
+      "isBinary": false,
+      "sunRadius": 22,
+      "sunColor": "D91AFF",
+      "starThreats": [
+        "HEAT",
+        "RADIATION"
+      ],
+      "starLoot": [
+        {
+          "item": "exolith:spectral_dust",
+          "tool": "SCOOP",
+          "min": 2,
+          "max": 4
+        },
+        {
+          "item": "minecraft:magma_block",
+          "tool": "SCOOP",
+          "min": 3,
+          "max": 5
+        }
+      ],
+      "planets": [
+        {
+          "id": "20",
+          "translationKey": "space.exolith.planet.20.a",
+          "type": "TOXIC",
+          "orbitRadiusX": 215.0,
+          "orbitRadiusY": 75.25,
+          "orbitSpeed": 0.0003000000142492354,
+          "size": 46,
+          "threats": [
+            "RADIATION"
+          ],
+          "loot": [
+            {
+              "item": "exolith:raw_anti_gravel",
+              "tool": "SURFACE",
+              "min": 2,
+              "max": 9
+            },
+            {
+              "item": "minecraft:ender_pearl",
+              "tool": "SURFACE",
+              "min": 3,
+              "max": 6
+            }
+          ],
+          "moons": [],
+          "hash": "b5683bf9b3e7383b552d192163c98d34"
+        }
+      ],
+      "asteroidBelts": [],
+      "hash": "b13e414f04b6ed1feb7ac681569ac840"
+    },
+    {
+      "id": 3,
+      "x": 2000.0,
+      "y": -2800.0,
+      "isBinary": false,
+      "sunRadius": 22,
+      "sunColor": "D91AFF",
+      "starThreats": [
+        "HEAT",
+        "RADIATION"
+      ],
+      "starLoot": [
+        {
+          "item": "exolith:spectral_dust",
+          "tool": "SCOOP",
+          "min": 2,
+          "max": 4
+        },
+        {
+          "item": "minecraft:magma_block",
+          "tool": "SCOOP",
+          "min": 3,
+          "max": 5
+        }
+      ],
+      "planets": [
+        {
+          "id": "20",
+          "translationKey": "space.exolith.planet.20.a",
+          "type": "TOXIC",
+          "orbitRadiusX": 215.0,
+          "orbitRadiusY": 75.25,
+          "orbitSpeed": 0.0003000000142492354,
+          "size": 46,
+          "threats": [
+            "RADIATION"
+          ],
+          "loot": [
+            {
+              "item": "exolith:raw_anti_gravel",
+              "tool": "SURFACE",
+              "min": 2,
+              "max": 9
+            },
+            {
+              "item": "minecraft:ender_pearl",
+              "tool": "SURFACE",
+              "min": 3,
+              "max": 6
+            }
+          ],
+          "moons": [],
+          "hash": "b5683bf9b3e7383b552d192163c98d34"
+        }
+      ],
+      "asteroidBelts": [],
+      "hash": "2bf931fcda5f3573c011233ee54853ae"
+    },
+    {
+      "id": 4,
+      "x": -3500.0,
+      "y": -1200.0,
+      "isBinary": false,
+      "sunRadius": 22,
+      "sunColor": "D91AFF",
+      "starThreats": [
+        "HEAT",
+        "RADIATION"
+      ],
+      "starLoot": [
+        {
+          "item": "exolith:spectral_dust",
+          "tool": "SCOOP",
+          "min": 2,
+          "max": 4
+        },
+        {
+          "item": "minecraft:magma_block",
+          "tool": "SCOOP",
+          "min": 3,
+          "max": 5
+        }
+      ],
+      "planets": [
+        {
+          "id": "20",
+          "translationKey": "space.exolith.planet.20.a",
+          "type": "TOXIC",
+          "orbitRadiusX": 215.0,
+          "orbitRadiusY": 75.25,
+          "orbitSpeed": 0.0003000000142492354,
+          "size": 46,
+          "threats": [
+            "RADIATION"
+          ],
+          "loot": [
+            {
+              "item": "exolith:raw_anti_gravel",
+              "tool": "SURFACE",
+              "min": 2,
+              "max": 9
+            },
+            {
+              "item": "minecraft:ender_pearl",
+              "tool": "SURFACE",
+              "min": 3,
+              "max": 6
+            }
+          ],
+          "moons": [],
+          "hash": "b5683bf9b3e7383b552d192163c98d34"
+        }
+      ],
+      "asteroidBelts": [],
+      "hash": "8cbccdedd199f43a96b02437cdce4fea"
+    },
+    {
+      "id": 5,
+      "x": 4500.0,
+      "y": -500.0,
+      "isBinary": true,
+      "sunRadius": 20,
+      "sunColor": "3399FF",
+      "starThreats": [
+        "HEAT",
+        "RADIATION"
+      ],
+      "starLoot": [
+        {
+          "item": "exolith:spectral_dust",
+          "tool": "SCOOP",
+          "min": 2,
+          "max": 4
+        },
+        {
+          "item": "minecraft:magma_block",
+          "tool": "SCOOP",
+          "min": 3,
+          "max": 5
+        }
+      ],
+      "planets": [
+        {
+          "id": "50",
+          "translationKey": "space.exolith.planet.21.a",
+          "type": "MOLTEN",
+          "orbitRadiusX": 290.0,
+          "orbitRadiusY": 101.5,
+          "orbitSpeed": 0.0005000000237487257,
+          "size": 38,
+          "threats": [
+            "HEAT",
+            "RADIATION"
+          ],
+          "loot": [
+            {
+              "item": "exolith:spectral_shard",
+              "tool": "DRILL",
+              "min": 4,
+              "max": 8
+            },
+            {
+              "item": "exolith:raw_magmatic_titanium",
+              "tool": "DRILL",
+              "min": 6,
+              "max": 12
+            }
+          ],
+          "moons": [],
+          "hash": "f955b681fd0257ff3b927a1a0bf8a3db"
+        },
+        {
+          "id": "5_styx",
+          "translationKey": "space.exolith.planet.22",
+          "type": "ICE",
+          "orbitRadiusX": 430.0,
+          "orbitRadiusY": 150.5,
+          "orbitSpeed": 0.0003000000142492354,
+          "size": 18,
+          "threats": [
+            "RADIATION",
+            "NO_SUNLIGHT"
+          ],
+          "loot": [
+            {
+              "item": "exolith:raw_iridium",
+              "tool": "DRILL",
+              "min": 4,
+              "max": 8
+            },
+            {
+              "item": "exolith:spectral_shard",
+              "tool": "SURFACE",
+              "min": 3,
+              "max": 6
+            }
+          ],
+          "moons": [],
+          "hash": "976ea3dc75cef2e6a02d93d55bcb9cf9"
+        }
+      ],
+      "asteroidBelts": [
+        430.0
+      ],
+      "hash": "1ce7243cede561b39026ea436fc33ccd"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+[wooden_crucible]
+	#How much the crucible holds in mB, counting both uncrushed items and water. 1000 mB = 1 bucket.
+	# Default: 1000
+	# Range: 250 ~ 64000
+	capacity = 1000
+	#How many mB of uncrushed items turn into fluid each time something lands inside the crucible.
+	# Default: 20
+	# Range: 1 ~ 64000
+	mb_per_jump = 20
+	#Minimum fall distance (in blocks) for a landing to count as a crush. A normal jump is about 1.25.
+	#Walking onto the crucible never counts.
+	# Default: 0.5
+	# Range: 0.1 ~ 64.0
+	min_fall_distance = 0.5
+	#If true, any mob landing inside the crucible crushes its contents (useful for automation, e.g. small slimes).
+	#If false, only players can crush.
+	mobs_can_crush = true
+
+[fired_crucible]
+	#How much the fired crucible holds in mB, counting both unmelted items and lava. 1000 mB = 1 bucket.
+	# Default: 1000
+	# Range: 250 ~ 64000
+	capacity = 1000
+	#Seconds to melt one bucket (1000 mB) with heat 1 underneath (a torch).
+	#More heat divides this: heat 3 (lava) is 3x faster, heat 4 (fire) is 4x faster.
+	#Heat values are set in the nostalgiccrucibles:heat_sources block data map.
+	# Default: 180
+	# Range: 1 ~ 36000
+	seconds_per_bucket_at_heat_1 = 180

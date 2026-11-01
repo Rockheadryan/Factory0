@@ -1,0 +1,30 @@
+#Scan radius in blocks: the scanner checks a cube of (2 x radius + 1) blocks per side. / Radio de escaneo en bloques.
+[radius]
+	# Default: 8
+	# Range: 1 ~ 32
+	basic = 512
+	# Default: 16
+	# Range: 1 ~ 48
+	advanced = 1024
+	# Default: 24
+	# Range: 1 ~ 48
+	master = 2048
+
+#Seconds between two scans. / Segundos entre dos escaneos.
+[cooldown]
+	# Default: 5
+	# Range: 0 ~ 600
+	basic = 30
+	# Default: 8
+	# Range: 0 ~ 600
+	advanced = 30
+	# Default: 12
+	# Range: 0 ~ 600
+	master = 30
+
+#How the found ores are shown. / Como se muestran los minerales encontrados.
+[display]
+	#Seconds the outlines stay visible. / Segundos que duran los contornos.
+	# Default: 10
+	# Range: 2 ~ 60
+	highlightSeconds = 60

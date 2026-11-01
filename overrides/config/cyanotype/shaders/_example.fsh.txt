@@ -1,0 +1,18 @@
+#version 150
+// Example custom background. Rename this file to myshader.fsh (drop the .txt), press F3+T in game, then pick
+// "Effect: custom shader" in the tree's Pictures and background window and type the name: myshader
+// Output is ADDED to what is behind it (the background picture), so black = transparent.
+in vec2 texCoord0;          // 0..1 over the view, (0,0) top left
+out vec4 fragColor;
+uniform float Time;         // seconds
+uniform vec2 Res;           // size of the view in pixels
+uniform vec2 Pan;           // how far the tree is dragged, in pixels
+uniform float Zoom;         // zoom of the tree view (1.0 = 100 %)
+uniform vec3 Tint;          // the colour chosen in the tree settings
+
+void main() {
+    vec2 c = texCoord0 * Res - Res * 0.5;
+    vec2 q = (c - Pan * 0.3) / Res.y * 4.0 / pow(Zoom, 0.5);   // moves with the drag, scales with the zoom
+    float v = 0.5 + 0.5 * sin(q.x * 2.0 + Time) * sin(q.y * 2.0 - Time * 0.7);
+    fragColor = vec4(Tint * v * 0.35, 1.0);
+}

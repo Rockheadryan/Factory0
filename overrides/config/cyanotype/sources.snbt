@@ -1,0 +1,14 @@
+{
+    data: [],
+    palette: [],
+    sources: [
+        {
+            adapter: "botania_mana",
+            buffer: 100000,
+            fe_ratio: 0.0d,
+            icon: "botania:mana_pool",
+            id: "mana",
+            name: "Mana"
+        }
+    ]
+}

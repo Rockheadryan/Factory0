@@ -1,0 +1,57 @@
+{
+    data: [],
+    palette: [],
+    id: "teir_1_research",
+    input: "cyanotype:research_blueprint",
+    nodes: [
+        {
+            cost: [
+                {
+                    count: 16,
+                    item: "minecraft:iron_ingot"
+                }
+            ],
+            icon: "minecraft:oak_log",
+            id: "node_1",
+            lock_masks: [I; 375],
+            locks: [
+                "minecraft:oak_log"
+            ],
+            parents: [],
+            x: 0,
+            y: -72
+        },
+        {
+            auto_complete: 1b,
+            cost: [],
+            icon: "immersiveengineering:rs_engineering",
+            id: "node_2",
+            lock_masks: [I; 2047],
+            locks: [
+                "immersiveengineering:rs_engineering"
+            ],
+            parents: [],
+            scale: 3.0f,
+            shape: "hexagon",
+            tasks: [
+                {
+                    args: [
+                        "minecraft:iron_ingot",
+                        "16"
+                    ],
+                    type: "feed_item"
+                }
+            ],
+            x: 112,
+            y: -48
+        },
+        {
+            cost: [],
+            icon: "minecraft:stone",
+            id: "node_3",
+            parents: [],
+            x: -52,
+            y: -44
+        }
+    ]
+}

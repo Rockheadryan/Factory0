@@ -1,0 +1,2 @@
+#Whether relative block placement is enabled for this player. Toggle it in-game with the configured key.
+stackingEnabled = true

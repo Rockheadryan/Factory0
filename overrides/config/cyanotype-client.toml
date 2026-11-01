@@ -1,0 +1,89 @@
+[appearance]
+	#Open the machine GUI in full screen.
+	open_fullscreen = true
+	#Show the side panel with the node details while hovering a node.
+	hover_panel = true
+	#Disable the shake / grow / bounce animations of nodes.
+	reduce_motion = false
+	#Play the nodes / lines appear and fold animation when the machine opens or the tree item is placed / removed.
+	reveal_animation = true
+	#Ambient effects of the GUI: floating particles, scan lines, running lights on the frame.
+	ambient_effects = true
+	#Floating dust particles in the tree viewport (needs ambient effects).
+	particles = true
+	#Faint scan line sweeping the tree viewport (needs ambient effects).
+	scan_line = true
+	#Running light and blinking LEDs on the frame (needs ambient effects).
+	frame_lights = true
+	#Soft glows behind ready / done nodes (needs ambient effects).
+	node_halos = true
+	#Neon pulses travelling along the connections.
+	connection_pulses = true
+	#Dotted grid in the tree viewport.
+	grid = true
+	#Small difficulty icons (bee, slime, skull, demon) at the top-left of the nodes that only exist on some world difficulties.
+	difficulty_marks = true
+	#Small sparks on the Codex button when something unlocks.
+	sparks_codex_button = true
+	#Small confetti-like sparks at the centre of the tree (where the nodes start) when something unlocks.
+	sparks_tree_center = true
+	#Small rotating portal ring on nodes that depend on (or exclude) a node of ANOTHER tree, since no line can reach it.
+	portal_effect = true
+	#Vanilla blurred background behind the machine GUI. Heavy on the GPU on weak PCs: turn it off there.
+	blur_background = false
+
+[gameplay]
+	#Progress HUD: lab level, XP and the combo counter (cosmetic only).
+	progress_hud = true
+	#How long (ms) you hold the mouse button to complete a node.
+	# Default: 900
+	# Range: 100 ~ 3000
+	hold_ms = 3000
+	#Show the pop-up notifications (toasts) sent by the mod. The recent-activity log in the Codex still records them.
+	toasts = true
+	#Quest Book mode: open the Codex automatically when the machine has no tree open.
+	auto_open_codex = true
+	#Reload EMI once, after the machine GUI is closed, when researching changes which recipes are hidden. Turn it off if the reload is too slow in a big pack (EMI then updates on its next reload).
+	emi_auto_reload = true
+	#Single player only: pause the game while the machine screen is open (like the vanilla pause menu). Off by default: the machine and the world keep running.
+	pause_in_singleplayer = false
+	#EMI: update the recipes live (no reload) when researching changes what is hidden. If EMI cannot be updated this way it falls back to the reload above.
+	emi_live_update = true
+	#Frame rate limit while the machine screen is open (0 = off, uses the game limit). Only lowers the limit; the previous value comes back when the screen closes.
+	# Default: 0
+	# Range: 0 ~ 260
+	screen_fps_limit = 0
+	#Size of the node side panel and everything inside it, in percent (the panel also adapts to the window).
+	# Default: 100
+	# Range: 50 ~ 150
+	side_panel_scale = 100
+	#Draw the big frames (machine frame, viewport, popups) in one draw call instead of thousands of tiles. Turn it off only if a frame looks wrong.
+	fast_frames = true
+	#Extra width (in pixels) of the node side panel, set by dragging the arrow on its left edge. The text inside keeps its size.
+	# Default: 0
+	# Range: 0 ~ 1200
+	side_panel_extra_width = 0
+	#Show the stored energy (FE) gauge in the Codex and beside the lab level.
+	show_energy = true
+	#Show the fluid buffer gauge in the Codex and beside the lab level.
+	show_fluid = true
+	#Show the other machine resources (mana, SU, ...) in the Codex and beside the lab level.
+	show_sources = true
+	#Show your virtual currencies in the Codex and beside the lab level.
+	show_currencies = true
+	#Draw the pictures and the background that trees can have (they are downloaded from the server the first time). Turn it off to save memory or bandwidth.
+	tree_images = true
+	#Allow the GLSL shader backgrounds a tree can choose (nebula, plasma, warp). Off = a simple procedural effect instead; useful on weak GPUs or if a driver misbehaves.
+	shader_backgrounds = true
+	#Dev mode: saves the tree you are editing 30 seconds after the first unsaved change (like pressing Ctrl+S). Off by default: a half-finished edit is not written to the server unless you ask.
+	autosave_tree = false
+	#Remove the buttons other mods add to every container screen (sort, move, settings...) from the machine screen. Only the machine's own buttons stay.
+	hide_foreign_buttons = true
+	#Open the inventory bar automatically when you click a node that asks for an item (socket node), and close it when you click elsewhere.
+	socket_auto_inventory = true
+
+[sound]
+	#Ambient sound of the machine.
+	machine_sound = true
+	#Sounds of the machine GUI (clicks, popups, nodes).
+	ui_sounds = true

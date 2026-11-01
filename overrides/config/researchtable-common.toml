@@ -1,0 +1,14 @@
+guiFullScreen = true
+# Default: 180
+# Range: > 1
+guiHeight = 180
+# Default: 120
+# Range: > 1
+guiListWidth = 120
+guiListAutoWidth = true
+# Default: 200
+# Range: > 1
+guiDetailWidth = 200
+hideUnavailableResearch = false
+hideCompletedResearch = false
+nonPrivilegedCommandReward = false

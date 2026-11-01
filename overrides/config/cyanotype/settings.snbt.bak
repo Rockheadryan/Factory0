@@ -1,0 +1,39 @@
+{
+    data: [],
+    palette: [],
+    bucket_fill: 1b,
+    buffer_fe: 1000000,
+    buffer_mb: 1000000,
+    buffer_src: 0,
+    currencies: [],
+    fallback_locale: "en_us",
+    item_hints: 1b,
+    lab_level: 1b,
+    lab_xp_node: 10,
+    lab_xp_tree: 50,
+    lists: {},
+    machine_skin: "default",
+    portable_machine: 1b,
+    quest_book_mode: 1b,
+    quest_wording: 0b,
+    recipe_lock_world_reload: 0b,
+    rpg_mode: 0b,
+    run_fe: 1000,
+    run_fluids: [],
+    run_sources: [],
+    scan_radius: 20,
+    scoreboard: 1b,
+    sources: [
+        {
+            adapter: "botania_mana",
+            buffer: 100000,
+            fe_ratio: 0.0d,
+            icon: "botania:mana_pool",
+            id: "mana",
+            name: "Mana"
+        }
+    ],
+    team_max: 8,
+    team_rewards_all: 1b,
+    teams_enabled: 1b
+}

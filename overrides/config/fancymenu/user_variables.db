@@ -1,0 +1,8 @@
+type = user_variables
+
+variable {
+  name = factory0_arrival_visible
+  value = false
+  reset_on_launch = false
+}
+

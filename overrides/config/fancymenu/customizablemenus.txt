@@ -1,0 +1,8 @@
+type = customizablemenus
+
+de.keksuccino.spiffyhud.customization.SpiffyOverlayScreen {
+}
+
+com.simpleschematics.neoforge.client.LibraryScreen {
+}
+

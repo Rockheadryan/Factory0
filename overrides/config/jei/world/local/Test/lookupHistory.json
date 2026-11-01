@@ -1,0 +1,16 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"minecraft:redstone_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ironjetpacks:basic_coil"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ironjetpacks:cell","components":"{\"ironjetpacks:jetpack_id\":\"ironjetpacks:wood\"}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ironjetpacks:capacitor","components":"{\"ironjetpacks:jetpack_id\":\"ironjetpacks:wood\"}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ironjetpacks:cell","components":"{\"ironjetpacks:jetpack_id\":\"ironjetpacks:iron\"}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ironjetpacks:capacitor","components":"{\"ironjetpacks:jetpack_id\":\"ironjetpacks:iron\"}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ironjetpacks:jetpack","components":"{\"ironjetpacks:jetpack_id\":\"ironjetpacks:iron\"}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:redstone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderio:conductive_alloy_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"extendedcrafting:ender_crafter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"extendedcrafting:basic_table"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"extendedcrafting:ender_catalyst"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"compactcrafting:field_projector"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
