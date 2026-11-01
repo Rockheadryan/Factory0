@@ -1,0 +1,24 @@
+#Seat Third-Person Camera Settings
+[camera]
+	#Default camera distance (blocks) when seat mode activates
+	# Default: 8.0
+	# Range: 1.0 ~ 64.0
+	defaultZoom = 8.0
+	#Minimum camera distance (blocks)
+	# Default: 2.0
+	# Range: 1.0 ~ 64.0
+	minZoom = 2.0
+	#Maximum camera distance (blocks)
+	# Default: 20.0
+	# Range: 1.0 ~ 64.0
+	maxZoom = 20.0
+	#Zoom speed when using scroll wheel or hold keys
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	scrollSensitivity = 1.0
+
+#Compatibility
+[compat]
+	#Extra entity type IDs to treat as seats (in addition to any entity with 'seat' in the path).
+	#Format: 'modid:entity_type'. Example: 'createaeronautics:airship_seat'
+	extraSeatEntityIds = []

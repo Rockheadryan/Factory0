@@ -1,0 +1,6 @@
+[meteors]
+	#Allow meteors and meteor showers to spawn naturally at night.
+	enableFallingMeteors = true
+	#Whether meteors destroy terrain and create craters on impact.
+	#If false, only the meteorite block is placed.
+	enableTerrainDamage = true
