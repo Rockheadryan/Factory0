@@ -1,0 +1,22 @@
+{
+  "gui_light": "front",
+  "textures": {
+    "logo": "factory0:item/arrival_logo"
+  },
+  "elements": [
+    {
+      "from": [3.616, 0, 7.99],
+      "to": [12.384, 16, 8.01],
+      "faces": {
+        "north": {
+          "uv": [0, 0, 16, 16],
+          "texture": "#logo"
+        },
+        "south": {
+          "uv": [0, 0, 16, 16],
+          "texture": "#logo"
+        }
+      }
+    }
+  ]
+}

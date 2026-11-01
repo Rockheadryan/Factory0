@@ -1,0 +1,17 @@
+{
+  "id": "factory0:factory0_5120",
+  "display": {
+    "description": "Factory0 5120 Map Template",
+    "author": "Factory0",
+    "display_order": -200
+  },
+  "construction": {
+    "pregen_template": "factory0_5120",
+    "structure_sets": []
+  },
+  "spawn_offset": [0, 0, 0],
+  "dimension": {
+    "private": true,
+    "dimension_type": "ftbteambases:default"
+  }
+}

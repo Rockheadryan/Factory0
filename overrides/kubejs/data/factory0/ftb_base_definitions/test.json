@@ -1,0 +1,18 @@
+{
+  "id": "factory0:test",
+  "display": {
+    "description": "rysTest",
+    "author": "Factory0",
+    "display_order": -100
+  },
+  "construction": {
+    "structure_location": "factory0:test",
+    "y_pos": 64,
+    "include_entities": false
+  },
+  "spawn_offset": [0, 0, 0],
+  "dimension": {
+    "private": true,
+    "dimension_type": "ftbteambases:default"
+  }
+}
