@@ -1,6 +1,0 @@
-#Maximum length of Horizontal Trusses
-#Does not affect already existing Trusses when changed
-#Default: 8
-# Default: 8
-# Range: 3 ~ 128
-maxTrussLength = 8
