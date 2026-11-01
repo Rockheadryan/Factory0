@@ -24,3 +24,7 @@ For MIT-licensed material, please consider keeping Factory0 content within this 
 Existing content license notices remain; this README does not replace them. Third-party mods and assets retain their own licenses. Commissioned map and artwork permissions must follow their respective agreements.
 ### Not an official Minecraft Product. Not approved by or associated with Mojang/Microsoft.
 Factory0 is an independently developed Minecraft modpack. Its developers are committed to following the Minecraft EULA and Minecraft Usage Guidelines.
+
+AI was used as help for development to make tools, making this project easier to handle, as it's a very small development team. 
+Factory0 Development team will try to avoid using any "Vibecoded" mods, Unfortunately it's becoming more difficult to tell. 
+Any AI used for this pack is intended as placeholders/development purposes, not for product release. 
