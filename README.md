@@ -16,6 +16,7 @@ The game will take place on a custom world with limited resources. The objective
 - Custom 5,120 x 5,120 map.
     - Multiple starting locations, same map, different dimensions for multiplayer servers.
     - Currently trying to commission map.
+    - https://docs.google.com/document/d/1J0J8EvVx3volhv7dNGEge8sUJeEZbSe6yTugbVWvrbo/edit?usp=sharing
 
 ## Permissions
 Except where explicitly marked otherwise, original Factory0 code is licensed under the MIT License.
